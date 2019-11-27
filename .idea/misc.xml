@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/drinks-relation-backups/drinks-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-file" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-introduction-hello" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-processflow" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-receive-data" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-request-mapping" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-validation" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/mvc-view" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/servlet-3_0" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mybatis-integration-parent/controller" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm-dan/practice-1" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm-dan/practice-2" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm-duo/duo-controller" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/parent-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/commodity-relation-delete/pom.xml" />
+        <option value="$PROJECT_DIR$/drinks-relation-backups/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-code/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mybatis-integration-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis-ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-dan/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-duo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mybatis/alcohol-crud-mapper-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/alcohol-crud-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/parent-spring/spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/parent-spring/spring-task/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

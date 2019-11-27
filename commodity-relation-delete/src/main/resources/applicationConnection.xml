@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="commodityDao" class="com.dao.impl.CommodityDaoImpl"/>
+    <bean id="commodityTypeDao" class="com.dao.impl.CommodityTypeDaoImpl" />
+
+    <bean id="service" class="com.service.impl.CommodityTypeServiceImpl" >
+        <property name="commodityDao" ref="commodityDao"/>
+        <property name="commodityTypeDao" ref="commodityTypeDao"/>
+        <property name="connection" ref="connetion"/>
+    </bean>
+
+    <bean id="connetion" class="com.util.ConnectionHelper" factory-method="getConnection" />
+
+    <bean id="adivsor" class="com.advisor.CommodityTypeAdvisor" >
+<!--        <constructor-arg name="connection" ref="connetion"/>-->
+<!--        <constructor-arg name="service" ref="service"/>-->
+<!--        <property name="connection" ref="connetion"/>-->
+<!--        <property name="service" ref="service"/>-->
+    </bean>
+
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(* com.service..*(..))"/>
+        <aop:advisor advice-ref="adivsor" pointcut-ref="pointcut"/>
+    </aop:config>
+
+</beans>

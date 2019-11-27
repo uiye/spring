@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.practice1.dao.DrinksDao">
+    <resultMap id="drinksResultMap" type="com.practice1.entity.DrinksEntity">
+        <id property="id" column="drinks_id"/>
+        <result property="name" column="drinks_name"/>
+    </resultMap>
+
+    <select id="queryDrinks" resultMap="drinksResultMap">
+        select drinks_id,drinks_name from drinks order by drinks_id
+    </select>
+
+    <delete id="deleteDrinks" parameterType="integer">
+        delete from drinkswhere drinks_id = #{id}
+    </delete>
+
+    <select id="getByIdDrinks" resultMap="drinksResultMap">
+        select drinks_id,drinks_name from drinks where drinks_id = #{id}
+    </select>
+</mapper>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mybatis" />
+        <module name="practice-1" />
+        <module name="mvc-processflow" />
+        <module name="dao" />
+        <module name="controller" />
+        <module name="spring-alcohol" />
+        <module name="spring-tx" />
+        <module name="spring-aop" />
+        <module name="mvc-ajax" />
+        <module name="servlet-3_0" />
+        <module name="mvc-mybatis-service" />
+        <module name="config" />
+        <module name="affair-tx" />
+        <module name="drinks-controller" />
+        <module name="mvc-receive-data" />
+        <module name="mvc-ajax-dao" />
+        <module name="commodity-relation-delete" />
+        <module name="dbutis-druid-web-srping" />
+        <module name="mvc-request-mapping" />
+        <module name="drinks-dao" />
+        <module name="mvc-introduction-hello" />
+        <module name="container-ioc-aop" />
+        <module name="duo-service" />
+        <module name="mvc-view" />
+        <module name="duo-dao" />
+        <module name="mybatis-druid-spring-recommended" />
+        <module name="duo-controller" />
+        <module name="drinks-service" />
+        <module name="mvc-validation" />
+        <module name="druid-mybatis-web-spring" />
+        <module name="mvc-mybatis-controller" />
+        <module name="mvc-file" />
+        <module name="mvc-mybatis-dao" />
+        <module name="mybatis-druid-spring-pagehelper" />
+        <module name="duo-entity" />
+        <module name="mvc-interceptor" />
+        <module name="mvc-ajax-service" />
+        <module name="practice-2" />
+        <module name="service" />
+        <module name="spring-code" />
+        <module name="mvc-mybatis-entity" />
+        <module name="spring-21" />
+        <module name="mvc-ajax-entity" />
+        <module name="mvc-ajax-controller" />
+        <module name="spring-ioc" />
+        <module name="entity" />
+        <module name="drinks-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="affair-tx" target="1.8" />
+      <module name="alcoholcrudmapper" target="1.8" />
+      <module name="alcoholcrudmapperanno" target="1.8" />
+      <module name="commodity-relation-delete" target="1.5" />
+      <module name="config" target="1.8" />
+      <module name="container-ioc-aop" target="1.8" />
+      <module name="controller" target="1.8" />
+      <module name="dao" target="1.8" />
+      <module name="dbutis-druid-web-srping" target="1.8" />
+      <module name="drinks-controller" target="1.8" />
+      <module name="drinks-dao" target="1.8" />
+      <module name="drinks-entity" target="1.8" />
+      <module name="drinks-relation-backups" target="1.8" />
+      <module name="drinks-service" target="1.8" />
+      <module name="druid-mybatis-web-spring" target="1.8" />
+      <module name="duo-controller" target="1.8" />
+      <module name="duo-dao" target="1.8" />
+      <module name="duo-entity" target="1.8" />
+      <module name="duo-service" target="1.8" />
+      <module name="entity" target="1.8" />
+      <module name="mvc-ajax" target="1.8" />
+      <module name="mvc-ajax-controller" target="1.8" />
+      <module name="mvc-ajax-dao" target="1.8" />
+      <module name="mvc-ajax-entity" target="1.8" />
+      <module name="mvc-ajax-service" target="1.8" />
+      <module name="mvc-file" target="1.8" />
+      <module name="mvc-interceptor" target="1.8" />
+      <module name="mvc-introduction-hello" target="1.8" />
+      <module name="mvc-mybatis-controller" target="1.8" />
+      <module name="mvc-mybatis-dao" target="1.8" />
+      <module name="mvc-mybatis-entity" target="1.8" />
+      <module name="mvc-mybatis-service" target="1.8" />
+      <module name="mvc-processflow" target="1.8" />
+      <module name="mvc-receive-data" target="1.8" />
+      <module name="mvc-request-mapping" target="1.8" />
+      <module name="mvc-validation" target="1.8" />
+      <module name="mvc-view" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatis-druid-spring-pagehelper" target="1.8" />
+      <module name="mybatis-druid-spring-recommended" target="1.8" />
+      <module name="parent-spring" target="1.8" />
+      <module name="practice-1" target="1.8" />
+      <module name="practice-2" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="servlet-3_0" target="1.8" />
+      <module name="spring-21" target="1.8" />
+      <module name="spring-alcohol" target="1.8" />
+      <module name="spring-annotation" target="1.8" />
+      <module name="spring-aop" target="1.8" />
+      <module name="spring-code" target="1.8" />
+      <module name="spring-ioc" target="1.8" />
+      <module name="spring-mvc" target="1.8" />
+      <module name="spring-mvc-mybatis" target="1.8" />
+      <module name="spring-mvc-mybatis-ajax" target="1.8" />
+      <module name="spring-mybatis" target="1.8" />
+      <module name="spring-mybatis-integration-parent" target="1.8" />
+      <module name="spring-task" target="1.8" />
+      <module name="spring-tx" target="1.8" />
+      <module name="ssm-dan" target="1.8" />
+      <module name="ssm-duo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

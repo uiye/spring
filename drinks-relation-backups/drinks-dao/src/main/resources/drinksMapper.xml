@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.DrinksDao">
+    <resultMap id="drinksResultMap" type="com.entity.Drinks">
+        <id property="drinksId" column="drinks_id"/>
+        <result property="drinksName" column="drinks_name"/>
+    </resultMap>
+<!-- 删除 -->
+    <delete id="deleteDrinks">
+        delete from drinks where drinks_id = #{id}
+    </delete>
+<!-- 根据ID查询 -->
+    <select id="getDrinksById" resultMap="drinksResultMap">
+        select drinks_id,drinks_name from drinks where drinks_id = #{id}
+    </select>
+<!-- 分页查询 -->
+    <select id="queryDrinks" resultMap="drinksResultMap">
+        select drinks_id,drinks_name from drinks order by drinks_id
+    </select>
+</mapper>

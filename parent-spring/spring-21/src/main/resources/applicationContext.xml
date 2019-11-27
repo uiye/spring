@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="b" class="com.B"></bean>
+    <bean id="c" class="com.C"></bean>
+
+    <bean id="a1" class="com.A" scope="prototype">
+        <constructor-arg ref="b" name="b"/>
+        <constructor-arg ref="c" name="c"/>
+    </bean>
+    <bean id="a2" class="com.A" scope="singleton">
+        <constructor-arg ref="b" name="b"/>
+        <constructor-arg ref="c" name="c"/>
+    </bean>
+</beans>

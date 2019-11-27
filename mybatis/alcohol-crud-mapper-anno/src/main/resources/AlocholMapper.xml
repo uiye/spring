@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AlcoholDao">
+    <delete id="delete">
+        delete from alcohol where alcohol_id = #{id}
+    </delete>
+    <update id="update" >
+        update alcohol set alcohol_name = #{alcohol_name},alcohol_price = #{alcohol_price},alcohol_stock = #{alcohol_stock} where alcohol_id = #{alcohol_id}
+    </update>
+    <select id="queryAlcohol" resultType="alcohol">
+        select alcohol_id,alcohol_name,alcohol_price,alcohol_stock from alcohol where alcohol_id = #{alcohol_id}
+    </select>
+</mapper>

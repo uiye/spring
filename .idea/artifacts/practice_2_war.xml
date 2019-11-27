@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="practice-2:war">
+    <output-path>$PROJECT_DIR$/ssm-dan/practice-2/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>practice-2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="practice-2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="practice-2:war exploded" />
+    </root>
+  </artifact>
+</component>

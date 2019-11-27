@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvc-mybatis-controller:war">
+    <output-path>$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-controller/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mvc-mybatis-controller</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mvc-mybatis-controller-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mvc-mybatis-controller:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mvc.ajax.dao.AlcoholDao">
+    <resultMap id="alcoholResultMap" type="mvc.ajax.entity.Alcohol">
+        <id property="id" column="alcohol_id"/>
+        <result property="name" column="alcohol_name"/>
+        <result property="price" column="alcohol_price"/>
+        <result property="stock" column="alcohol_stock"/>
+    </resultMap>
+
+    <select id="queryAlcohol" resultMap="alcoholResultMap">
+        select alcohol_id,alcohol_name,alcohol_price,alcohol_stock from alcohol order by alcohol_id
+    </select>
+
+    <insert id="insertAlcohol" parameterType="mvc.ajax.entity.Alcohol">
+        insert into alcohol(alcohol_name,alcohol_price,alcohol_stock) values (#{name},#{price},#{stock})
+    </insert>
+
+</mapper>

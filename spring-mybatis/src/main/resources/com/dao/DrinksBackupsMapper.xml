@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.DrinksBackupsDao">
+    <resultMap id="drinksBackupsResultMap" type="com.entity.Drinks">
+        <id property="id" column="drinks_backups_id"/>
+        <result property="name" column="drinks_backups_name"/>
+    </resultMap>
+
+    <insert id="insertDrinksBackups" parameterType="com.entity.Drinks">
+        insert into drinks_backups(drinks_backups_id, drinks_backups_name) values (#{id},#{name})
+    </insert>
+</mapper>

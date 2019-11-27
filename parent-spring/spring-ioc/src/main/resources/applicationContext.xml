@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    第一种-->
+    <bean id="creator1" class="com.entity.SqlSessionFactorCreator">
+        <property name="properties">
+            <props>
+                <prop key="a">第一个</prop>
+                <prop key="b">第二个</prop>
+                <prop key="c">第三个</prop>
+                <prop key="d">第亖个</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="factory1" factory-bean="creator1" factory-method="create"></bean>
+<!--    第二种-->
+    <bean id="properties2" factory-bean="creator1" factory-method="getProperties"/>
+    <bean id="factory2" class="com.entity.SqlSessionFactory">
+        <constructor-arg ref="properties2"/>
+    </bean>
+<!--    第三种-->
+    <bean id="factory3" class="com.entity.SqlSessionFactory">
+        <constructor-arg name="properties">
+            <bean factory-bean="creator1" factory-method="getProperties"/>
+        </constructor-arg>
+    </bean>
+    <!--
+    ABean单例 BBean原型 B注入到A 每次次使用A都会创建新的B
+    -->
+
+    <bean id="bBean" class="com.entity.BBean" scope="prototype">
+        <constructor-arg type="java.lang.Integer" value="1"/>
+        <constructor-arg type="java.lang.String" value="il"/>
+    </bean>
+
+    <bean id="aBean" class="com.entity.ABean" scope="singleton">
+        <constructor-arg ref="bBean"/>
+    </bean>
+
+    <bean id="aMethod" factory-bean="aBean" factory-method="setbBean">
+        <constructor-arg ref="bBean"/>
+    </bean>
+</beans>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-annotation/affair-tx/affair-tx.iml" filepath="$PROJECT_DIR$/spring-annotation/affair-tx/affair-tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commodity-relation-delete/commodity-relation-delete.iml" filepath="$PROJECT_DIR$/commodity-relation-delete/commodity-relation-delete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/config/config.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-annotation/container-ioc-aop/container-ioc-aop.iml" filepath="$PROJECT_DIR$/spring-annotation/container-ioc-aop/container-ioc-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/controller/controller.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/controller/controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/dao/dao.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/dao/dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/dbutis-druid-web-srping/dbutis-druid-web-srping.iml" filepath="$PROJECT_DIR$/parent-spring/dbutis-druid-web-srping/dbutis-druid-web-srping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drinks-relation-backups/drinks-controller/drinks-controller.iml" filepath="$PROJECT_DIR$/drinks-relation-backups/drinks-controller/drinks-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drinks-relation-backups/drinks-dao/drinks-dao.iml" filepath="$PROJECT_DIR$/drinks-relation-backups/drinks-dao/drinks-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drinks-relation-backups/drinks-entity/drinks-entity.iml" filepath="$PROJECT_DIR$/drinks-relation-backups/drinks-entity/drinks-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drinks-relation-backups/drinks-relation-backups.iml" filepath="$PROJECT_DIR$/drinks-relation-backups/drinks-relation-backups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drinks-relation-backups/drinks-service/drinks-service.iml" filepath="$PROJECT_DIR$/drinks-relation-backups/drinks-service/drinks-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/druid-mybatis-web-spring/druid-mybatis-web-spring.iml" filepath="$PROJECT_DIR$/parent-spring/druid-mybatis-web-spring/druid-mybatis-web-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-duo/duo-controller/duo-controller.iml" filepath="$PROJECT_DIR$/ssm-duo/duo-controller/duo-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-duo/duo-dao/duo-dao.iml" filepath="$PROJECT_DIR$/ssm-duo/duo-dao/duo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-duo/duo-entity/duo-entity.iml" filepath="$PROJECT_DIR$/ssm-duo/duo-entity/duo-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-duo/duo-service/duo-service.iml" filepath="$PROJECT_DIR$/ssm-duo/duo-service/duo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/entity/entity.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/entity/entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-ajax/mvc-ajax.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-ajax/mvc-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-controller/mvc-ajax-controller.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-controller/mvc-ajax-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-dao/mvc-ajax-dao.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-dao/mvc-ajax-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-entity/mvc-ajax-entity.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-entity/mvc-ajax-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-service/mvc-ajax-service.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-ajax/mvc-ajax-service/mvc-ajax-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-file/mvc-file.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-file/mvc-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-interceptor/mvc-interceptor.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-interceptor/mvc-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-introduction-hello/mvc-introduction-hello.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-introduction-hello/mvc-introduction-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-controller/mvc-mybatis-controller.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-controller/mvc-mybatis-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-dao/mvc-mybatis-dao.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-dao/mvc-mybatis-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-entity/mvc-mybatis-entity.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-entity/mvc-mybatis-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-service/mvc-mybatis-service.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/mvc-mybatis-service/mvc-mybatis-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-processflow/mvc-processflow.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-processflow/mvc-processflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-receive-data/mvc-receive-data.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-receive-data/mvc-receive-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-request-mapping/mvc-request-mapping.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-request-mapping/mvc-request-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-validation/mvc-validation.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-validation/mvc-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/mvc-view/mvc-view.iml" filepath="$PROJECT_DIR$/spring-mvc/mvc-view/mvc-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/mybatis-druid-spring-pagehelper/mybatis-druid-spring-pagehelper.iml" filepath="$PROJECT_DIR$/parent-spring/mybatis-druid-spring-pagehelper/mybatis-druid-spring-pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/mybatis-druid-spring-recommended/mybatis-druid-spring-recommended.iml" filepath="$PROJECT_DIR$/parent-spring/mybatis-druid-spring-recommended/mybatis-druid-spring-recommended.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/parent-spring.iml" filepath="$PROJECT_DIR$/parent-spring/parent-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-dan/practice-1/practice-1.iml" filepath="$PROJECT_DIR$/ssm-dan/practice-1/practice-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-dan/practice-2/practice-2.iml" filepath="$PROJECT_DIR$/ssm-dan/practice-2/practice-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/service/service.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/servlet-3_0/servlet-3_0.iml" filepath="$PROJECT_DIR$/spring-mvc/servlet-3_0/servlet-3_0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/spring-21/spring-21.iml" filepath="$PROJECT_DIR$/parent-spring/spring-21/spring-21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/spring-alcohol/spring-alcohol.iml" filepath="$PROJECT_DIR$/parent-spring/spring-alcohol/spring-alcohol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/parent-spring/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-code/spring-code.iml" filepath="$PROJECT_DIR$/spring-code/spring-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/spring-ioc/spring-ioc.iml" filepath="$PROJECT_DIR$/parent-spring/spring-ioc/spring-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-ajax/spring-mvc-mybatis-ajax.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-ajax/spring-mvc-mybatis-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-integration-parent/spring-mybatis-integration-parent.iml" filepath="$PROJECT_DIR$/spring-mybatis-integration-parent/spring-mybatis-integration-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-spring/spring-tx/spring-tx.iml" filepath="$PROJECT_DIR$/parent-spring/spring-tx/spring-tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-dan/ssm-dan.iml" filepath="$PROJECT_DIR$/ssm-dan/ssm-dan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-duo/ssm-duo.iml" filepath="$PROJECT_DIR$/ssm-duo/ssm-duo.iml" />
+    </modules>
+  </component>
+</project>

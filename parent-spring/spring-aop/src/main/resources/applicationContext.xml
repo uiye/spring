@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="log" class="com.log.LogImpl"/>
+
+    <bean id="testLogImpl" class="com.main.TestLogImpl"/>
+
+    <aop:config>
+        <aop:pointcut id="before" expression="execution(public String com.main..*(*,..))"/>
+        <aop:aspect id="logImpl" ref="log" order="1">
+            <aop:around method="aroundX" pointcut-ref="before" />
+<!--            <aop:after-throwing method="exceptionX" throwing="re" pointcut-ref="before"/>-->
+        </aop:aspect>
+<!--        <aop:aspect id="logImpl" ref="log" order="1">-->
+<!--            <aop:before method="startX" pointcut-ref="before" />-->
+<!--        </aop:aspect>-->
+<!--        <aop:aspect id="logImpl" ref="log" order="2">-->
+<!--            <aop:after method="stopX" pointcut-ref="before"/>-->
+<!--        </aop:aspect>-->
+<!--        <aop:aspect id="logImpl" ref="log" order="3">-->
+<!--            <aop:after-returning method="stopX" pointcut-ref="before"/>-->
+<!--        </aop:aspect>-->
+<!--        <aop:aspect id="logImpl" ref="log" order="4">-->
+<!--            <aop:after-throwing method="excetionX" pointcut-ref="before"/>-->
+<!--        </aop:aspect>-->
+    </aop:config>
+
+</beans>
