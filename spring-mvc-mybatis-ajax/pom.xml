@@ -32,7 +32,7 @@
         <pagehelper.version>5.1.10</pagehelper.version>
         <jstl.version>1.2</jstl.version>
         <hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
-        <jackson.datavind.version>2.10.1</jackson.datavind.version>
+        <jackson.datavind.version>2.10.5.1</jackson.datavind.version>
     </properties>
 
     <dependencyManagement>
