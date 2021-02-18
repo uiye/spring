@@ -32,7 +32,7 @@
         <spring.version>5.2.0.RELEASE</spring.version>
         <servlet.version>4.0.1</servlet.version>
         <hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
-        <jackson.version>2.10.1</jackson.version>
+        <jackson.version>2.10.5.1</jackson.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
     </properties>
 
