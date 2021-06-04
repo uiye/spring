@@ -32,7 +32,7 @@
         <mysql.version>5.1.47</mysql.version>
         <pagehelper.version>5.1.10</pagehelper.version>
         <jstl.version>1.2</jstl.version>
-        <hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
+        <hibernate.validator.version>6.1.5.Final</hibernate.validator.version>
     </properties>
 
     <dependencyManagement>
